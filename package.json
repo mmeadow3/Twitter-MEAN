@@ -1,0 +1,20 @@
+{
+  "name": "Twitter-MEAN",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmeadow3/Twitter-MEAN.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmeadow3/Twitter-MEAN/issues"
+  },
+  "homepage": "https://github.com/mmeadow3/Twitter-MEAN#readme"
+}
