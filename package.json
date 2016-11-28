@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mmeadow3/Twitter-MEAN/issues"
   },
-  "homepage": "https://github.com/mmeadow3/Twitter-MEAN#readme"
+  "homepage": "https://github.com/mmeadow3/Twitter-MEAN#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
