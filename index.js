@@ -13,17 +13,13 @@ app.get('/auth/twitter', authenticator.redirectToTwitterLoginPage);
 app.get(url.parse(config.oauth_callback).path, function(req, res) {
     authenticator.authenticate(req, res, function(err) {
         if (err) {
-            res.redirect('/login');
+            console.log(err);
+            res.sendStatus(401);
         } else {
-            res.redirect('/');
+            res.send('success');
         }
     });
 });
-
-app.get("/", (req, res) => {
-    res.send("Testing")
-})
-
 app.listen(3000, () => {
     console.log(`server is running on ${config.port}`)
 })

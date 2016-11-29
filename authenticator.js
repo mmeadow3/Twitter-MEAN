@@ -1,8 +1,8 @@
-var OAuth = require('oauth').OAuth;
-var config = require('./config');
+const OAuth = require('oauth').OAuth;
+const config = require('./config');
 
 // Create the oauth object for accessing Twitter
-var oauth = new OAuth(
+const oauth = new OAuth(
     config.request_token_url,
     config.access_token_url,
     config.consumer_key,
